@@ -46,7 +46,7 @@ Cliccando sull'immagine, un lightbox si apre ingrandendo quest'ultima per una  v
 
 ## Links progetto:
 - Live Demo: 
-- Repo GitHub:
+- Repo GitHub: https://github.com/StefanoRimoldi/Progetto-Website-Start2Impact.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
