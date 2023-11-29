@@ -45,7 +45,7 @@ Cliccando sull'immagine, un lightbox si apre ingrandendo quest'ultima per una  v
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Links progetto:
-- Live Demo: 
+- Live Demo: https://portfoliowebsite-s2i.netlify.app
 - Repo GitHub: https://github.com/StefanoRimoldi/Progetto-Website-Start2Impact.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
