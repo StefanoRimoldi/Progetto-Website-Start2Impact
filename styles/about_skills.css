@@ -1,0 +1,111 @@
+.about-section {
+    background: url(./images/sfondo-about.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    text-align: center;
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-section .text {
+    margin-bottom: 20px;
+    color: gray;
+    font-family: "Open Sans";
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.about-section .text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-section .text p {
+    font-size: 16px;
+
+}
+
+.text img {
+    max-width: 50%;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 940px) {
+    .inner-container {
+        flex-direction: column;
+    }
+
+    .about-section .text p {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .about-section {
+        padding: 50px 35px;
+    }
+
+}
+
+@media(min-width: 1920px) {
+    .about-section {
+        padding: 50px 85px;
+        text-align: center;
+    }
+
+    .about-section .text h2 {
+        font-size: 47px;
+    }
+
+    .about-section .text p {
+        font-size: 24px;
+    }
+
+    .section_title {
+        font-size: 47px;
+    }
+    .skill_box {
+        font-size: 24px;
+    }
+
+
+    }
+
+/*--Skills--*/
+.skill_section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    flex-direction: column;
+    margin: 15px;
+    padding-top: 50px;
+}
+
+.section_title {
+    text-transform: uppercase;
+}
+
+.skill_subtitle {
+    color: gray;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.skill_name {
+    display: inline-block;
+    color: gray;
+    padding: .25rem .5rem;
+    border-radius: .25rem;
+    background-color: #2c2c2c;
+    margin: 5px;
+}
