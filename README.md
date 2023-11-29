@@ -42,6 +42,7 @@ Questo videobox include un'icona a croce nell'angolo in alto a destra che permet
 Nella sezione "Graphic Area", i progetti grafici, come le cover musicali, sono presentati attraverso un carosello a scorrimento automatico. 
 Cliccando sull'immagine, un lightbox si apre ingrandendo quest'ultima per una  visualizzazione più dettagliata. Facendo clic al di fuori del lightbox, questo si chiude, riportando l'utente alla visualizzazione originale. Inoltre, sono presenti controlli a freccia posizionati sotto il carosello che consentono agli utenti di scorrere le immagini manualmente. Nella versione mobile, i css sostituiscono il carosello con la visualizzazione di una singola immagine che viene cambiata a intervalli regolari. Soluzione per avere una visione ottimizzata e user-friendly, più adatta alla dimensione delle schermo dei dispositivi mobili.
 
+<a href="https://ibb.co/gT0nyj1"><img src="https://i.ibb.co/jMCph6K/20231129-235336.gif" alt="20231129-235336" border="0"></a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Links progetto:
