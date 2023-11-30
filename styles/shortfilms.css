@@ -97,14 +97,14 @@
 }
 
 .btn-watch-video {
-    -webkit-position: absolute;
+    position: absolute;
     background-color: gray;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px;
     border-radius: 10px;
     text-align: center;
-    -webkit-bottom: 30px;
+    bottom: 30px;
     text-decoration: none;
     color: white;    
 }
