@@ -11,6 +11,7 @@ Progettato per essere full responsive, si adatta a display più piccoli, a parti
 - [Struttura](#struttura)
 - [Shortfilms](#shortfilms-section)
 - [Graphic Area](#graphic-area)
+- [Open Graph](#open-graph)
 - [Licenza](#licenza)
 - [Links](#links-progetto)
 - [Contatti](#contatti)
@@ -26,6 +27,8 @@ All'interno della pagina è possibile distringuere 6 sezioni:
 * **Shortfilms:** in questa parte del sito vengono mostrati i miei cortometraggi attraverso una serie di card distinte ciascuna delle quali offre una breve descrizione del progetto audiovisivo corrispondente.
 * **Graphic Area:** galleria in formato carosello che espone le cover musicali che ho realizzato.
 * **Contact Me:** sezione che include un form funzionante che consente ai visitatori di inviare messaggi diretti al mio contatto attraverso l'integrazione di fromspree.io
+
+*Per soddisfare i requisiti del progetto, ho implementato una funzionalità aggiuntiva: premendo il bottone "Scopri di più" nella sezione About, gli utenti possono accedere a una seconda pagina che fornisce informazioni dettagliate sulle mie esperienze lavorative. Inoltre, offro la possibilità di scaricare il mio curriculum direttamente dal sito web in formato pdf.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -43,6 +46,9 @@ Nella sezione "Graphic Area", i progetti grafici, come le cover musicali, sono p
 Cliccando sull'immagine, un lightbox si apre ingrandendo quest'ultima per una  visualizzazione più dettagliata. Facendo clic al di fuori del lightbox, questo si chiude, riportando l'utente alla visualizzazione originale. Inoltre, sono presenti controlli a freccia posizionati sotto il carosello che consentono agli utenti di scorrere le immagini manualmente. Nella versione mobile, i css sostituiscono il carosello con la visualizzazione di una singola immagine che viene cambiata a intervalli regolari. Soluzione per avere una visione ottimizzata e user-friendly, più adatta alla dimensione delle schermo dei dispositivi mobili.
 
 <a href="https://ibb.co/gT0nyj1"><img src="https://i.ibb.co/jMCph6K/20231129-235336.gif" alt="20231129-235336" border="0"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Open Graph:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Links progetto:

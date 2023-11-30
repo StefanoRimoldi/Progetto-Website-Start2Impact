@@ -1,0 +1,296 @@
+html {
+    scroll-behavior: smooth;
+    }
+
+.CVpage {
+    background-color: rgb(27, 27, 27);
+    /* box-shadow: 0 4px 30px rgba(180, 174, 174, 0.336), 0 0 10px rgba(255, 255, 255, 0.2); */
+    padding: 70px 0;
+    padding-top: 15px;
+    
+}
+
+.CV-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footer-menu, .CV-follow {
+    width: 25%;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+
+}
+.footer-menu {
+    margin-bottom: 30px !important;
+}
+
+.footer-menu, .CV-follow h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+}
+
+.footer-menu h4::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+}
+
+.footer-menu a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(121, 119, 119);
+}
+
+.footer-menu a:hover {
+    padding-left: 8px;
+}
+
+.CV-follow {
+    margin-bottom: 40px;
+}
+
+.CV-follow ul i {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 30px;
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.CV-follow ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.CV-follow ul i:hover{
+    font-size: 35px;
+
+}
+
+#downloadButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+#downloadButton:hover {
+    background-color:rgb(94, 92, 92)
+}
+
+/*---opensea icon---*/
+.CV-follow img {
+    filter: invert();
+    width: 26px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 8px;
+    line-height: 30px;
+}
+
+.CV-follow img:hover {
+    width: 35px;
+}
+
+
+.Image_CV{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.CV-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    text-align: center;
+    color: gray;
+}
+
+.CV-avatar h2 {
+    margin-bottom: 20px;
+}
+
+.footer-copy p {
+    text-align: center;
+    margin-bottom: 0;
+    color: gray;
+}
+
+/*---freccia torna alla home ---*/
+.back-to-top {
+    /* transition: all 0.5s cubic-bezier(0.300, 0.100, 0.580, 1.000); */
+    color: gray;
+    position: absolute;
+    font-size: 30px;
+    right: 20px;
+    animation: bounce 0.5s ease infinite alternate;
+    
+}
+
+.back-to-top:hover {
+    transform: translateY(-5px);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .back-to-top {
+    animation: bounce 1s ease infinite;
+  }
+
+
+@media screen and (min-width: 1920px) {
+    .CV-avatar h2 {
+        font-size: 47px;
+    }
+
+    .CV-avatar p {
+        font-size: 24px;
+    }
+
+    .CV-follow img {
+        width: 30px;
+    }
+
+    .footer-menu h4{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer-menu a {
+        font-size: 24px;
+        line-height: 60px;
+    }
+
+    .footer-copy {
+        font-size: 24px;
+    }
+}
+
+
+/*---Contenuto CV pagina downloadpage---*/
+
+.titleCVsection h4{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.CVsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    color: gray;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .CardExp {
+    max-width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    
+  }
+
+  .date {
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    background-color: gray;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .CardExp p{
+    padding: 10px;
+  }
+
+  .skill_section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    flex-direction: column;
+    margin: 15px;
+    padding-top: 45px;
+    margin-bottom: 45px;
+}
+
+.section_title {
+    text-transform: uppercase;
+}
+
+.skill_subtitle {
+    color: gray;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.skill_name {
+    display: inline-block;
+    color: gray;
+    padding: .25rem .5rem;
+    border-radius: .25rem;
+    background-color: #2c2c2c;
+    margin: 5px;
+}

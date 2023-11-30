@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     
 }
 
@@ -36,6 +37,25 @@
     max-width: 50%;
     margin-top: 20px;
 }
+
+.downloadpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.downloadpage:hover{
+    background-color:rgb(94, 92, 92)
+}
+
 
 
 @media (max-width: 940px) {
@@ -88,7 +108,7 @@
     color: gray;
     flex-direction: column;
     margin: 15px;
-    padding-top: 50px;
+    padding-top: 45px;
 }
 
 .section_title {

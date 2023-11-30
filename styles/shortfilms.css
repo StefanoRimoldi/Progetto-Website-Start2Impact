@@ -40,6 +40,12 @@
     margin: 20px;
 }
 
+.portfolio-card:hover {
+    width: 330px;
+    background: rgba(240, 240, 240, 0);
+    
+}
+
 .portfolio-image {
     width: 100%;
     height: auto;
