@@ -97,7 +97,7 @@
 }
 
 .btn-watch-video {
-    position: absolute;
+    -webkit-position: absolute;
     background-color: gray;
     left: 50%;
     transform: translateX(-50%);
