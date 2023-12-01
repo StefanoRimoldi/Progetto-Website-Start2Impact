@@ -38,6 +38,8 @@
     box-shadow: 0 4px 30px rgba(180, 174, 174, 0.336), 0 0 10px rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(50px);
     margin: 20px;
+    /*--*/
+    position: relative;
 }
 
 .portfolio-card:hover {
