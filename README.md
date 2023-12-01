@@ -49,6 +49,11 @@ Cliccando sull'immagine, un lightbox si apre ingrandendo quest'ultima per una  v
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Open Graph:
+Per presentare al meglio il mio sito web e renderlo più
+accattivante, quando viene condiviso dagli utenti sui social
+netowork, ho incluso i tag Open Graph nel codice HTML,
+specificando il titolo, la descrizione e l’immagine di
+presentazione.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Links progetto:
