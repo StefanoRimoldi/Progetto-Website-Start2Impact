@@ -8,6 +8,7 @@ body {
     font-family: "Poppins", sans-serif;
     --color1: #FFF;
     --color2: #181818;
+    margin-top: 55px;
 }
 
 .nav-bar {
@@ -16,9 +17,14 @@ body {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    position: relative;
     background-color: black;
     padding: 12px 20px;
+    /*--menu sticky-- */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
 }
 
 .logo {
