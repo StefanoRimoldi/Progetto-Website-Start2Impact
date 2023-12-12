@@ -297,6 +297,14 @@ body {
 
 }
 
+@media screen and (min-width: 1300px) {
+    body {
+        margin-top: 90px;
+    }
+}
+
+
+
 /*---animazione freccia home scroll---*/
 @keyframes bounce {
     0% {
